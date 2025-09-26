@@ -8,7 +8,7 @@ The primary function of this tool is to:
 
 *   Export messages from Kommo.
 *   Include all relevant lead details associated with the messages.
-*   Automatically expand all text boxes within the Kommo interface to ensure complete data capture.
+*   You need to expand all text boxes within the Kommo interface to ensure complete data capture.
 
 ## Usage
 
