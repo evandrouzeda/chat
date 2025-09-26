@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "HTML Content Extractor",
+  "version": "1.0",
+  "description": "Extracts HTML content from a specific div and downloads it.",
+  "permissions": [
+    "activeTab",
+    "downloads",
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
